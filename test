@@ -1,0 +1,5 @@
+PlayerSpawn = function( ply ) 
+    ply:SetMaxHealth( 1000 )
+    ply:SetHealth( 1000 )
+    return CLIENT
+end
